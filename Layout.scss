@@ -1,0 +1,27 @@
+/* CSS layout */
+
+$school-color-1: #2E4951;
+$school-color-2: #D85F37;
+
+body {
+    background-color: $school-color-1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    font-weight: bold;
+    color: #D85F37;
+}
+
+#masthead {}
+
+#top_nav {}
+
+#page_content {}
+
+#footer {}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+}

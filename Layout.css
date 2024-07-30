@@ -1,13 +1,15 @@
-﻿/* CSS layout */
-#masthead {
+/* CSS layout */
+body {
+  background-color: #2E4951;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-#top_nav {
+
+.header {
+  font-weight: bold;
+  color: #D85F37;
 }
-#page_content {
-}
-#footer {
-}
+
 #wrapper {
-	width:900px;
-	margin:0 auto;
-}
+  width: 900px;
+  margin: 0 auto;
+}/*# sourceMappingURL=Layout.css.map */
