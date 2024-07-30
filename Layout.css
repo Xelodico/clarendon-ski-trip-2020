@@ -2,14 +2,30 @@
 body {
   background-color: #2E4951;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  width: 900px;
+  margin: 0 auto;
 }
 
-.header {
+.heading, .heading-centered {
   font-weight: bold;
+  font-size: xx-large;
   color: #D85F37;
 }
 
-#wrapper {
-  width: 900px;
-  margin: 0 auto;
+.heading-centered {
+  text-align: center;
+}
+
+#top_nav {
+  text-align: center;
+}
+
+#page_content div {
+  position: absolute;
+}
+
+.image-caption {
+  font-size: large;
+  color: #D85F37;
 }/*# sourceMappingURL=Layout.css.map */

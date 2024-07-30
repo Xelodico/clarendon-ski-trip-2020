@@ -6,22 +6,37 @@ $school-color-2: #D85F37;
 body {
     background-color: $school-color-1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    width: 900px;
+    margin: 0 auto;
 }
 
-.header {
+.heading {
     font-weight: bold;
+    font-size: xx-large;
     color: #D85F37;
+}
+
+.heading-centered {
+    @extend .heading;
+    text-align: center;
 }
 
 #masthead {}
 
-#top_nav {}
+#top_nav {
+    text-align: center;
+}
 
-#page_content {}
+#page_content {
+    div {
+        position: absolute;
+    }
+}
+
+.image-caption {
+    font-size: large;
+    color: $school-color-2;
+}
 
 #footer {}
-
-#wrapper {
-    width: 900px;
-    margin: 0 auto;
-}
