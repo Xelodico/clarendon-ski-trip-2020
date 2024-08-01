@@ -35,6 +35,11 @@ body {
 #page_content div {
   position: absolute;
 }
+#page_content a {
+  color: #00FFFF;
+  text-decoration: underline;
+  text-decoration-color: #00FFFF;
+}
 
 .image-caption {
   color: #D85F37;
@@ -63,16 +68,15 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 90pt;
   color: #D85F37;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .dashed-info-box {
   font-size: large;
+  font-weight: bold;
   color: #D85F37;
   text-align: center;
   border: 3px dashed #D85F37;
   padding: 1px 4px;
-}
-
-.hyperlink {
-  color: #00FFFF;
 }/*# sourceMappingURL=Layout.css.map */
