@@ -79,4 +79,14 @@ body {
   text-align: center;
   border: 3px dashed #D85F37;
   padding: 1px 4px;
+}
+
+.red-info-box, .day-markers,
+#dedication-message {
+  background-color: #D85E37;
+  padding: 2px;
+}
+
+.day-markers {
+  border: 2px solid #FFFFFF;
 }/*# sourceMappingURL=Layout.css.map */
