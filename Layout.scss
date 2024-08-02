@@ -23,6 +23,13 @@ body {
     text-align: center;
 }
 
+#in-association-with,
+.sub-heading {
+    color: $school-color-2;
+    font-style: italic;
+    font-size: x-large;
+}
+
 .scrolling-text {
     text-align: center;
     font-size: xx-large;
@@ -99,15 +106,25 @@ body {
     padding: 1px 4px;
 }
 
+.dashed-info-box-xx-large {
+    @extend .dashed-info-box;
+    font-size: xx-large;
+}
+
 .red-info-box,
 #dedication-message {
-    background-color: #D85E37;
+    background-color: $school-color-2;
     padding: 2px;
 }
 
 .day-markers {
     @extend .red-info-box;
     border: 2px solid #FFFFFF;
+}
+
+.day-markers-large {
+    @extend .day-markers;
+    font-size: x-large;
 }
 
 #footer {}

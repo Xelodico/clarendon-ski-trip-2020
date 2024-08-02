@@ -18,6 +18,13 @@ body {
   text-align: center;
 }
 
+#in-association-with,
+.sub-heading {
+  color: #D85F37;
+  font-style: italic;
+  font-size: x-large;
+}
+
 .scrolling-text {
   text-align: center;
   font-size: xx-large;
@@ -72,7 +79,7 @@ body {
   font-style: italic;
 }
 
-.dashed-info-box {
+.dashed-info-box, .dashed-info-box-xx-large {
   font-size: large;
   font-weight: bold;
   color: #D85F37;
@@ -81,12 +88,20 @@ body {
   padding: 1px 4px;
 }
 
-.red-info-box, .day-markers,
+.dashed-info-box-xx-large {
+  font-size: xx-large;
+}
+
+.red-info-box, .day-markers, .day-markers-large,
 #dedication-message {
-  background-color: #D85E37;
+  background-color: #D85F37;
   padding: 2px;
 }
 
-.day-markers {
+.day-markers, .day-markers-large {
   border: 2px solid #FFFFFF;
+}
+
+.day-markers-large {
+  font-size: x-large;
 }/*# sourceMappingURL=Layout.css.map */
